@@ -886,8 +886,10 @@ nav menu css
     left: -15px;
     border-radius: 0px;
     background: #fff;
-    width: 220px;
+    min-width: 300px;
     box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+    max-width: 300px;
+    width: 270px;
   }
 
   .navbar .nav-item .dropdown-menu li {
@@ -1244,6 +1246,11 @@ multi level dropdown menu
   top: 0;
   opacity: 1;
   visibility: visible;
+  /* left: -100%; */
+}
+
+.adjustGap{
+  gap:20px;
 }
 
 @media all and (max-width: 991px) {
@@ -5040,5 +5047,11 @@ home 3
 }
 
 
+.positionInitial{
+  position: initial!important;
+}
 
+.positionAbsolute{
+  position: absolute!important;
+}
 
