@@ -5046,17 +5046,17 @@ home 3
   }
 
 
-
+/* 
   .positionInitial{
     position: initial!important;
   }
   
   .positionAbsolute{
     position: absolute!important;
-  }
+  } */
   
 }
-
+/* 
 .positionInitial{
   position: initial!important;
 }
@@ -5064,22 +5064,53 @@ home 3
 .positionAbsolute{
   position: absolute!important;
 }
-
+ 
 .subMenuLi .sub-menu{
   position: absolute;
-  /* display: none; */
   visibility:hidden;
   opacity: 0;
 }
 
-.subMenuLi:hover .sub-menu{
-  position: absolute;
-  /* display: block; */
-  transition: .3s;
-  opacity: 1;
-  visibility: visible;
-  top: 100%;
-  transform: translate(300px, -50px);
-  background: #fff;
-  width:100%;
-}
+.show{
+  position: absolute!important;
+  transition: .3s!important;
+  opacity: 1!important;
+  visibility: visible!important;
+  top: 100%!important;
+  transform: translate(300px, -50px)!important;
+  background: #fff!important;
+  width:100%!important;
+} */
+
+
+/*
+  .subMenuLi:hover .sub-menu{
+    position: absolute;
+    transition: .3s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: translate(300px, -50px);
+    background: #fff;
+    width:100%;
+  }
+*/
+
+/*
+@media (max-width: 991px){
+
+  .subMenuLi .sub-menu{
+    display: none;
+  }
+
+  .subMenuLi:active .sub-menu{
+    position: absolute;
+    transition: .3s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: translate(300px, -50px);
+    background: #fff;
+    width:100%;
+  }
+  } */
